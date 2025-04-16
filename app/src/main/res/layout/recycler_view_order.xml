@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="25dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/recyclerRef"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Reference: "
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/recyclerDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Order placed: "
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/recyclerUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Last update: "
+                android:layout_marginStart="15dp"
+                android:layout_marginBottom="15dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/recyclerStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:text="Dispatched"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/recyclerItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:text="Item x 3 x £"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/recyclerTotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginBottom="15dp"
+                android:gravity="right"
+                android:text="£total"
+                android:textSize="18sp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

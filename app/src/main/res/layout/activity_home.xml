@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/ghost_white"
+    android:weightSum="5"
+    tools:context=".HomeActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/view_product_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tag="view_product_container"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/top_menu_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.example.assessment2.FragmentTopMenu"
+        tools:layout="@layout/fragment_top_menu"
+        android:tag="top_menu_container"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:name="com.example.assessment2.FragmentLogin"
+        tools:layout="@layout/fragment_login"
+        android:layout_weight="5"
+        android:tag="home_container"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/bottom_menu_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.example.assessment2.FragmentBottomMenu"
+        tools:layout="@layout/fragment_bottom_menu"
+        android:tag="bottom_menu_container">
+    </androidx.fragment.app.FragmentContainerView>
+</LinearLayout>

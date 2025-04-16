@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".FragmentProduct">
+
+    <LinearLayout
+        android:id="@+id/ll_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="8">
+
+        <ImageButton
+            android:id="@+id/button_search"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_search_24"
+            app:tint="@color/black"
+            android:actionViewClass="androidx.appcompat.widget.SearchView"
+            android:contentDescription="search">
+        </ImageButton>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/lSearch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            app:boxBackgroundMode="filled">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/search"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Search...">
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageButton
+            android:id="@+id/button_clear"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_clear_24"
+            app:tint="@color/black"
+            android:contentDescription="clear text">
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/button_filter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/sort"
+            app:tint="@color/black"
+            android:contentDescription="search">
+        </ImageButton>
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/product_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    </ProgressBar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycleView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:itemCount="5"
+        android:layout_gravity="top"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+</LinearLayout>

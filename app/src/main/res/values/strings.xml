@@ -1,0 +1,231 @@
+<resources>
+    <string name="app_name">Assessment2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_to_cart">Add to Cart</string>
+    <string name="view">View</string>
+    <string name="password">Password...</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign out</string>
+    <string name="submit">Submit</string>
+    <string name="clear">Clear</string>
+    <string-array name="country">
+        <item>England</item>
+        <item>North Ireland</item>
+        <item>Scotland</item>
+        <item>Wales</item>
+    </string-array>
+    <string-array name="england_city">
+        <item>Bath</item>
+        <item>Birmingham</item>
+        <item>Bradford</item>
+        <item>Brighton &amp; Hove</item>
+        <item>Bristol</item>
+        <item>Cambridge</item>
+        <item>Canterbury</item>
+        <item>Carlisle</item>
+        <item>Chelmsford</item>
+        <item>Chester</item>
+        <item>Chichester</item>
+        <item>Colchester</item>
+        <item>Coventry*</item>
+        <item>Derby</item>
+        <item>Doncaster</item>
+        <item>Durham</item>
+        <item>Ely</item>
+        <item>Exeter</item>
+        <item>Gloucester</item>
+        <item>Hereford</item>
+        <item>Kingston-upon-Hull</item>
+        <item>Lancaster</item>
+        <item>Leeds</item>
+        <item>Leicester</item>
+        <item>Lichfield</item>
+        <item>Lincoln</item>
+        <item>Liverpool</item>
+        <item>London</item>
+        <item>Manchester</item>
+        <item>Milton Keynes</item>
+        <item>Newcastle-upon-Tyne</item>
+        <item>Norwich</item>
+        <item>Nottingham</item>
+        <item>Oxford</item>
+        <item>Peterborough</item>
+        <item>Plymouth</item>
+        <item>Portsmouth</item>
+        <item>Preston</item>
+        <item>Ripon</item>
+        <item>Salford</item>
+        <item>Salisbury</item>
+        <item>Sheffield</item>
+        <item>Southampton</item>
+        <item>Southend-on-Sea</item>
+        <item>St Albans</item>
+        <item>Stoke on Trent</item>
+        <item>Sunderland</item>
+        <item>Truro</item>
+        <item>Wakefield</item>
+        <item>Wells</item>
+        <item>Westminster</item>
+        <item>Winchester</item>
+        <item>Wolverhampton</item>
+        <item>Worcester</item>
+        <item>York</item>
+        <item>Armagh</item>
+        <item>Bangor</item>
+        <item>Belfast</item>
+        <item>Lisburn</item>
+        <item>Londonderry</item>
+        <item>Newry</item>
+        <item>Aberdeen</item>
+        <item>Dundee</item>
+        <item>Dunfermline</item>
+        <item>Edinburgh</item>
+        <item>Glasgow</item>
+        <item>Inverness</item>
+        <item>Perth</item>
+        <item>Stirling</item>
+        <item>Bangor</item>
+        <item>Cardiff</item>
+        <item>Newport</item>
+        <item>St Asaph</item>
+        <item>St Davids</item>
+        <item>Swansea</item>
+        <item>Wrexham</item>
+    </string-array>
+    <string-array name="england_counties">
+        <item>-</item>
+        <item>Bedfordshire</item>
+        <item>Berkshire</item>
+        <item>Buckinghamshire</item>
+        <item>Cambridgeshire</item>
+        <item>Cheshire</item>
+        <item>Cornwall</item>
+        <item>Cumberland</item>
+        <item>Derbyshire</item>
+        <item>Devon</item>
+        <item>Dorset</item>
+        <item>Durham</item>
+        <item>Essex</item>
+        <item>Gloucestershire</item>
+        <item>Hampshire</item>
+        <item>Herefordshire</item>
+        <item>Huntingdonshire</item>
+        <item>Kent</item>
+        <item>Lancashire</item>
+        <item>Leicestershire</item>
+        <item>Lincolnshire</item>
+        <item>Middlesex</item>
+        <item>Norfolk</item>
+        <item>Northamptonshire</item>
+        <item>Northumberland</item>
+        <item>Nottinghamshire</item>
+        <item>Oxfordshire</item>
+        <item>Rutland</item>
+        <item>Shropshire</item>
+        <item>Somerset</item>
+        <item>Staffordshire</item>
+        <item>Suffolk</item>
+        <item>Surrey</item>
+        <item>Sussex</item>
+        <item>Warwickshire</item>
+        <item>Westmorland</item>
+        <item>Wiltshire</item>
+        <item>Worcestershire</item>
+        <item>Yorkshire</item>
+    </string-array>
+    <string-array name="scotland_counties">
+        <item>-</item>
+        <item>Aberdeenshire</item>
+        <item>Angus</item>
+        <item>Argyll and Bute</item>
+        <item>Ayrshire</item>
+        <item>Banffshire</item>
+        <item>Berwickshire</item>
+        <item>Buteshire</item>
+        <item>Caithness</item>
+        <item>Clackmannanshire</item>
+        <item>Cromartyshire</item>
+        <item>Dumfries and Galloway</item>
+        <item>Dunbartonshire</item>
+        <item>East Lothian</item>
+        <item>Fife</item>
+        <item>Inverness-shire</item>
+        <item>Kincardineshire</item>
+        <item>Kinross-shire</item>
+        <item>Kirkcudbrightshire</item>
+        <item>Lanarkshire</item>
+        <item>Midlothian</item>
+        <item>Morayshire</item>
+        <item>Nairnshire</item>
+        <item>Orkney</item>
+        <item>Peeblesshire</item>
+        <item>Perthshire</item>
+        <item>Renfrewshire</item>
+        <item>Ross-shire</item>
+        <item>Roxburghshire</item>
+        <item>Selkirkshire</item>
+        <item>Shetland</item>
+        <item>Stirlingshire</item>
+        <item>Sutherland</item>
+        <item>West Lothian</item>
+        <item>Wigtownshire</item>
+    </string-array>
+    <string-array name="scotland_cities">
+        <item>Aberdeen</item>
+        <item>Dundee</item>
+        <item>Dunfermline</item>
+        <item>Edinburgh</item>
+        <item>Glasgow</item>
+        <item>Inverness</item>
+        <item>Perth</item>
+        <item>Stirling</item>
+    </string-array>
+    <string-array name="wales_counties">
+        <item>-</item>
+        <item>Anglesey</item>
+        <item>Anglesey</item>
+        <item>Brecknockshire</item>
+        <item>Caernarfonshire</item>
+        <item>Carmarthenshire</item>
+        <item>Cardiganshire</item>
+        <item>Denbighshire</item>
+        <item>Flintshire</item>
+        <item>Glamorgan</item>
+        <item>Merionethshire</item>
+        <item>Monmouthshire</item>
+        <item>Montgomeryshire</item>
+        <item>Pembrokeshire</item>
+        <item>Radnorshire</item>
+    </string-array>
+
+    <string-array name="wales_cities">
+        <item>Bangor</item>
+        <item>Cardiff</item>
+        <item>Newport</item>
+        <item>St Asaph</item>
+        <item>St Davids</item>
+        <item>Swansea</item>
+        <item>Wrexham</item>
+    </string-array>
+
+    <string-array name="northern_ireland_counties">
+        <item>-</item>
+        <item>Antrim</item>
+        <item>Armagh</item>
+        <item>Down</item>
+        <item>Fermanagh</item>
+        <item>Londonderry</item>
+        <item>Tyrone</item>
+    </string-array>
+
+    <string-array name="northern_ireland_cities">
+        <item>Armagh</item>
+        <item>Bangor</item>
+        <item>Belfast</item>
+        <item>Lisburn</item>
+        <item>Londonderry</item>
+        <item>Newryh</item>
+        <item>Newry</item>
+    </string-array>
+</resources>

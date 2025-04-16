@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Assessment2" parent="Theme.Material3.DayNight.NoActionBar">
+    </style>
+
+    <style name="Theme.Assessment2" parent="Base.Theme.Assessment2" />
+
+    <style name="Theme.Button" parent="Base.Theme.Assessment2" >
+        <item name="android:backgroundTint">@color/floral</item>
+        <item name="android:textColor">@color/ghost_white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.Button.Primary" parent="Base.Theme.Assessment2" >
+        <item name="android:backgroundTint">@color/emerald</item>
+        <item name="android:textColor">@color/ghost_white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.Button.Secondary" parent="Base.Theme.Assessment2" >
+        <item name="android:backgroundTint">@color/azure</item>
+        <item name="android:textColor">@color/ghost_white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Theme.Button.Warning" parent="Base.Theme.Assessment2" >
+        <item name="android:backgroundTint">@color/bittersweet</item>
+        <item name="android:textColor">@color/ghost_white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

@@ -1,0 +1,77 @@
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar_top"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/oxford_blue"
+    app:theme="@style/Base.Theme.AppCompat.CompactMenu"
+    tools:context=".FragmentBottomMenu">
+
+    <LinearLayout
+        android:id="@+id/top_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/transparent"
+            android:clickable="true"
+            android:src="@drawable/baseline_search_24"
+            app:tint="@color/ghost_white" />
+
+        <ImageButton
+            android:id="@+id/favourite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_favorite_border_24"
+            app:tint="@color/ghost_white" />
+
+        <ImageButton
+            android:id="@+id/cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_shopping_cart_24"
+            app:tint="@color/ghost_white" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitStart"
+            android:layout_marginLeft="-30dp"
+            android:padding="5dp"
+            android:background="@drawable/circle_notification_background"
+            android:gravity="center"
+            android:adjustViewBounds="true"
+            android:textStyle="bold"
+            android:text="0"
+            android:textColor="@color/ghost_white"
+            android:textSize="14sp"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal" />
+
+
+        <ImageButton
+            android:id="@+id/orders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@android:color/transparent"
+            android:clickable="true"
+            android:src="@drawable/baseline_receipt_24"
+            app:tint="@color/ghost_white" />
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>

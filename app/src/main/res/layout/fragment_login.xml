@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".FragmentLogin">
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Theme.Button"
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create a new account"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="15dp"
+        android:layout_gravity="end"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome!"
+        android:layout_marginTop="20dp"
+        android:textSize="26dp"
+        android:layout_gravity="center" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="270dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/logo"
+        android:scaleType="centerInside"
+        android:layout_gravity="top|center" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/lEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:boxBackgroundMode="filled">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Email...">
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/lPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:passwordToggleEnabled="true"
+        app:boxBackgroundMode="filled">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/password">
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Theme.Button"
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="bottom|center"/>
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.Material3.FloatingActionButton.Large.Surface"
+        android:id="@+id/forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/oxford_blue"
+        android:text="Forgot Password"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="bottom|center"/>
+</LinearLayout>
